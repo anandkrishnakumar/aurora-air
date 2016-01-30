@@ -32,9 +32,10 @@ Bengaluru = Place.Place('Bengaluru', , )
 Thiruvananthapuram = Place.Place('Thiruvananthapuram', , )"""
 
 
-Anand_S650_1 = Airplane.Airplane(airplane_models_dict["S650"], 'Anand')
-Anand_Z200_1 = Airplane.Airplane(airplane_models_dict["Z200"], 'Anand')
+"""
+Example for creating an airplane instance (model=S650, owner=spideyonthego):
+    S650_1 = Airplane.Airplane(airplane_models_dict["S650"], 'spideyonthego')
 
-Anand_S650_1.fly(Delhi, Kochi)
-Anand_Z200_1.fly(Delhi, Kochi)
-
+Example for flying an airplane instance (origin=Delhi, destination=Kochi):
+    S650_1.fly(Delhi, Kochi)
+"""
